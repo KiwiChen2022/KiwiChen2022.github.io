@@ -1,0 +1,55 @@
+{
+    "members" : [
+      {
+        "name" : "Yukihiko Iwakura",
+        "photo" : 1,
+        "description" : "Known as 'Yuki' by the other members of Chikusei-so, he passed the bar examination on his first try. Yuki was initially reluctant to run and was bent on defying Haiji's enthusiasm, but eventually got drawn into it as the others members did. He hates the smell of tobacco coming from Akihiro's smoking until he quit for running."
+        
+      },
+      {
+        "name" : "Takashi Sugiyama",
+        "photo" : 2,
+        "description" : "Known as 'Shindo' to the other members of the dorm. Generally considered an honor student by the other residents of Chikusei-so, Takashi is an earnest student from the mountain regions. He was the first convinced by Haiji to give running a chance and has been a significant driving force behind the others. His dedication towards training originally stemmed from wanting to inspire and impress his family, but eventually became something entirely his own."
+      },
+      {
+        "name" : "Haiji Kiyose",
+        "photo" : 3,
+        "description" : "Haiji is a 4th year Kansei University Student and a long time resident of Chikusei-so. He has dreams of running in the Hakone Ekiden with a team and slowly built up one of at-first unwilling acquaintances at the dorm. Despite recovering from a knee injury, Haiji remains one of the most enthusiastic residents and coach of the group."
+      },
+      {
+        "name" : "Akane Kashiwazaki",
+        "photo" : 4,
+        "description" : "Nicknamed 'Prince' by the other dorm members, Akane is a manga enthusiast with his room filled to the brim with various volumes. He began as one of the most reluctant and slowest members due to his lack of physical stamina and indoor tendencies. Akane picked up his training after Takashi had his family send over a treadmill for him to remain indoors to read manga. After finding true inspiration from his friends at Chikusei-so and Kakeru's presence, he pushes himself beyond his limitations."
+      },
+      {
+        "name" : "Kakeru Kurahara",
+        "photo" : 5,
+        "description" : "Kakeru is a 1st year sociology student at Kansei University Student and an experienced runner. A prodigious athlete since high school, he became disillusioned due to an incident on his old Track and Field team. He first joined Chikusei-so after Haiji meets him stealing from a convenience store. Over the course of the story, Kakeru learns the meaning of running together with others."
+      },
+      {
+        "name" : "Tarō Jō",
+        "photo" : 6,
+        "description" : "The older of the Jō twins. He goes by Jota and is nearly indistinguishable from his younger brother. The two think and act in tandem. Though he was originally driven by the intention to attract girls through running, Jota came to appreciate the sport."
+      },
+      {
+        "name" : "Jirō Jō",
+        "photo" : 7,
+        "description" : "The younger of the Jō twins. He goes by Joji and appears almost the exact same as his elder brother. Originally intending to run for the sake of becoming popular with girls, he realize that running was something enjoyable in itself."
+      },
+      {
+        "name" : "Musa Kamala",
+        "photo" : 8,
+        "description" : "Musa is a native to Tanzania. He moved to Japan to study Space and Engineering as a sponsored international student at Kansei University. His Japanese still has flaws leading to some misunderstandings and written mistakes. Kind and earnest, Musa is always supportive of his other team members and is well known by the residents of the local shopping district."
+      },
+      {
+        "name" : "Yōhei Sakaguchi",
+        "photo" : 9,
+        "description" : "Known as 'King' due to his love of trivia, Yohei is a 4th year Sociology student at Kansei University. Besides his nightly trivia marathons, he's generally preoccupied by job hunting to no avail. Yohei eventually relented and joined in the team's efforts due to the earnest words of Takashi."
+      },
+      {
+        "name" : "Akihiro Hirata",
+        "photo" : 10,
+        "description" : "Known as 'Nico-senpai' due to his habit of smoking. Prior to entering Kansei University, he ran Track during high school but quit due to his coach. As Akihiro picked up running again under Haiji's influence, he stopped smoking and began to make small metallic figures as a substitute."
+      }
+    ]
+  }
