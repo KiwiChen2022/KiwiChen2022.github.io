@@ -15,7 +15,7 @@ h1,h3{
 }
 
 .full-img img{
-    max-width: 75vw;
+    max-width: 70vw;
     border-radius: 10px;
 }
 
@@ -33,12 +33,13 @@ h2{
     font-size: 5em;
 }
 .thumb-bar{
-    width: 80vw;
+    width: 70vw;
     display: grid;
     /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
 
     grid-template-columns:repeat(5,1fr);
-    grid-auto-rows: minmax(400px, auto);
+    /*grid-auto-rows: minmax(400px, auto);*/
+    grid-auto-rows: auto;
     grid-gap: 20px;
       
 }
@@ -46,7 +47,7 @@ h2{
     border: wheat 5px solid;
     border-radius: 10px;
     width: 100%;
-    height: 40%;
+    height: 15vw;
     cursor: pointer;
     object-fit: cover;
   }
@@ -78,6 +79,7 @@ aside p{
     margin-bottom: 5px;
     background-color: skyblue;
     border-radius: 10px;
+    height: 2.5em;
 }
 
 .characters p{
