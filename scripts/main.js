@@ -79,8 +79,28 @@ for (var i=0;i<members.length;i++){
     thumbBar.appendChild(character);
 }
 */
-const imgs = document.querySelectorAll('.thumb-bar img')
-/* Looping through images */
-for (var i=0;i<imgs.length;i++){
-    //console.log(imgArr[i]);
-}
+
+// Message Board
+
+    const messageList = document.querySelector(".messages")
+    const btn = document.querySelector("form button");
+    const msg = document.querySelector("form textarea[name='user_message']");
+    function addMsg(){
+        const msgValue = msg.value;
+        if(!msgValue){
+            return;
+        }
+        msg.value = '';
+        const msgToAdd = document.createElement("li");
+        const spanToAdd = document.createElement("span");
+        const btnToAdd = document.createElement("button");
+        msgToAdd.appendChild(spanToAdd);
+        msgToAdd.appendChild(btnToAdd);
+        spanToAdd.textContent = msgValue;
+        btnToAdd.textContent = "Delete";
+        messageList.appendChild(msgToAdd);
+        btnToAdd.addEventListener("click",() => {messageList.removeChild(msgToAdd)});
+        msg.focus(); 
+    }
+    btn.addEventListener("click",addMsg);
+

@@ -4,122 +4,60 @@
     <meta charset="utf-8">
 
     <title>Run with the Wind</title>
-
+    <link rel="stylesheet" href="styles/all.css">
     <link rel="stylesheet" href="styles/style.css">
-    
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
     <header>
-        <h1>Run with the Wind</h1>
-        <h3>「寛政大学・陸上競技部錬成所」</h3>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Homepage</a>
+          </li>
+          <li>
+            <a href="about-us.html">About us</a>
+          </li>
+          <li>
+            <a href="support-us.html">Support us</a>
+          </li>
+          <li>
+            <a href="contact-us.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+        <h1><i><b>Run with the Wind</b></i></h1>
+        <h3>We are determined to challenge the Hakone Ekiden Marathon, please support us! <br>--From Kansai University Athletics Club「寛政大学・陸上競技部錬成所」</h3>
     </header>
     <main>
         <aside>
             <h3>message board</h3>
-            <p>/* spacing */
-
-                table {
-                    table-layout: fixed;
-                    width: 100%;
-                    border-collapse: collapse;
-                    border: 3px solid purple;
-                  }
-                  
-                  thead th:nth-child(1) {
-                    width: 30%;
-                  }
-                  
-                  thead th:nth-child(2) {
-                    width: 20%;
-                  }
-                  
-                  thead th:nth-child(3) {
-                    width: 15%;
-                  }
-                  
-                  thead th:nth-child(4) {
-                    width: 35%;
-                  }
-                  
-                  th, td {
-                    padding: 20px;
-                  }
-                
-                  /* typography */
-                
-                html {
-                    font-family: 'helvetica neue', helvetica, arial, sans-serif;
-                  }
-                  
-                  thead th, tfoot th {
-                    font-family: 'Rock Salt', cursive;
-                  }
-                  
-                  th {
-                    letter-spacing: 2px;
-                  }
-                  
-                  td {
-                    letter-spacing: 1px;
-                  }
-                  
-                  tbody td {
-                    text-align: center;
-                  }
-                  
-                  tfoot th {
-                    text-align: right;
-                  }
-                
-                  
-                  thead, tfoot {
-                    background: url(leopardskin.jpg);
-                    color: white;
-                    text-shadow: 1px 1px 1px black;
-                  }
-                  
-                  thead th, tfoot th, tfoot td {
-                    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
-                    border: 3px solid purple;
-                  }
-                  
-                  tbody tr:nth-child(odd) {
-                    background-color: #ff33cc;
-                  }
-                  
-                  tbody tr:nth-child(even) {
-                    background-color: #e495e4;
-                  }
-                  
-                  tbody tr {
-                    background-image: url(noise.png);
-                  }
-                  
-                  table {
-                    background-color: #ff33cc;
-                  }
-                
-                  
-                  caption {
-                    font-family: 'Rock Salt', cursive;
-                    padding: 20px;
-                    font-style: italic;
-                    caption-side: bottom;
-                    color: #666;
-                    text-align: right;
-                    letter-spacing: 1px;
-                  }
-                  
-                  </p>
-
+            <ul class="messages">
+              <li>Here is our latest news: <a href="#"> News </a></li>
+              <li>Let's go to Hakone Ekiden!</li>
+            </ul>
+            <div class="userMsg">      
+              <form action="/my-handling-form-page" method="post"> 
+                <ul>
+                  <li>
+                    <label for="msg"></label>
+                    <textarea id="msg" name="user_message" placeholder="Leave a message here..."></textarea>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Send</button>
+                  </li>
+                </ul>
+              </form>
+            </div>
         </aside>
         <div class="full-img">
         <img class="displayed-img" src="images/Cover.jpg" alt="Cover">
        
         </div>
 
-        <h2>Members</h2>
+        <h2>Team Members</h2>
         <div class="thumb-bar">
         </div>
         

@@ -1,0 +1,143 @@
+/*
+.split-screen {
+    display: flex;
+}
+*/
+
+/* .split-screen__half {
+    flex: 1;
+} */
+.split-screen {
+    display: grid;
+    grid-template-columns: minmax(520px,2fr) minmax(800px,3fr);
+    gap: 0;
+    padding: 30px;
+}
+
+.split-screen .head{
+    grid-column: 1/3;
+    grid-row: 1;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.split-screen .head h1{
+    color: white;
+    background-color: transparent;
+    position: relative;
+    left: 256px;
+    font-size: 3em;
+}
+
+.split-screen-left {
+    /* position: relative; */
+    grid-column: 1s;
+    grid-row: 2;
+    background-color: white;
+    border-right: 1px solid #999;
+}
+
+.split-screen-left h3{
+    position: relative;
+    left: 256px;
+    font-size: 3em;
+}
+
+.split-screen-left h3::before{
+    content: '';
+    position: absolute;
+    width: calc(90% - 256px);
+    height: 1px;
+    left: 0;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.223);
+}
+
+.split-screen-right {
+    z-index: 999;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white;
+}
+
+.split-screen-right h3{
+    position: relative;
+    left: 70px;
+    font-size: 3em;
+}
+
+
+.split-screen-right h3::before{
+    content: '';
+    position: absolute;
+    width: calc(90% - 256px);
+    height: 1px;
+    left: 0;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.223);
+}
+
+.msg-table{
+    display: grid;
+    row-gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.msg-table > *{
+    display: flex;
+    margin-left: 50px;
+}
+label{
+    width: 20px;
+}
+
+.name input[name="user_first_name"]{
+    width: 200px;
+}
+
+.name input:last-child{
+    width: 400px;
+}
+
+input,textarea{
+    min-height: 60px;
+    font-size: 2em;
+}
+
+
+.email input, .msg textarea{
+    width: 620px;
+}
+
+.split-screen-left img{
+    display: block;
+    width: 100%;
+    position: relative;
+    left: 256px;
+    width: 5em;
+}
+
+address{
+    position: relative;
+    left: 256px;
+}
+
+address h5{
+    font: 2.4em sans-serif;
+    color: #0093E9;
+    margin: 0;
+}
+
+address p{
+    font: 1.8em sans-serif;
+}
+
+.msg-table button{
+    display: block;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font: 2.5em sans-serif;
+    width: 10em;
+    text-align: center;
+    border-radius: 1em;
+}

@@ -1,17 +1,13 @@
-html{
-    overflow: auto;
-    font-size: 10px;
-    
-}
 
 h1,h3{
     background-color: skyblue;
     text-align: center;
-    width: 70vw;
+    width: 100%;
     text-shadow: white 1px 0 10px;
     font-size: 7em;
     border-radius: 10px;
     margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .full-img img{
@@ -25,7 +21,7 @@ h1,h3{
 
 h3{
     background-color: aquamarine;
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
@@ -59,6 +55,9 @@ aside{
     border: steelblue solid 10px;
     border-radius: 10px;
     color: rgb(220, 220, 220);
+    position: sticky;
+    top: 30px;
+    right: 0;
 }
 
 aside h3{
@@ -79,12 +78,39 @@ aside p{
     margin-bottom: 5px;
     background-color: skyblue;
     border-radius: 10px;
-    height: 2.5em;
+    height: 3em;
+    text-align: center;
 }
 
 .characters p{
+    padding: 10px;
     font-size: 1.6em;
     margin-top: 0;
-    
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0 0 1.5rem rgba(0,0,0,.1);
 }
 
+form, .messages{
+    font-size: 2em;
+}
+
+form ul{
+    list-style-type: none;
+}
+
+textarea{
+    font-size: 2rem;
+    width: 12vw;
+}
+
+button{
+    font: 1em sans-serif;
+}
+
+.messages li button{
+    font: 0.6em sans-serif;
+    margin-left: 10px;
+    position: relative;
+    bottom: 2px;
+}
