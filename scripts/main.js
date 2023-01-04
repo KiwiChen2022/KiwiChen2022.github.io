@@ -1,3 +1,4 @@
+/* populate the index page */
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 /*
@@ -23,7 +24,7 @@ fetch('../json/character.json')
     .then((response) => response.json())
     .then((json) => members = json);
 */ 
-/* Declaring the array of image filenames X*/
+/* Declaring the array of each character */
 const imgArr = ["1","2","3","4","5","6","7","8","9","10",];
 const names= ["Yukihiko Iwakura","Takashi Sugiyama","Haiji Kiyose","Akane Kashiwazaki","Kakeru Kurahara","Tarō Jō","Jirō Jō","Musa Kamala","Yōhei Sakaguchi","Akihiro Hirata"];
 const member_description = ["Known as 'Yuki' by the other members of Chikusei-so, he passed the bar examination on his first try. Yuki was initially reluctant to run and was bent on defying Haiji's enthusiasm, but eventually got drawn into it as the others members did. He hates the smell of tobacco coming from Akihiro's smoking until he quit for running.",
@@ -37,7 +38,7 @@ const member_description = ["Known as 'Yuki' by the other members of Chikusei-so
 "Known as 'King' due to his love of trivia, Yohei is a 4th year Sociology student at Kansei University. Besides his nightly trivia marathons, he's generally preoccupied by job hunting to no avail. Yohei eventually relented and joined in the team's efforts due to the earnest words of Takashi.",
 "Known as 'Nico-senpai' due to his habit of smoking. Prior to entering Kansei University, he ran Track during high school but quit due to his coach. As Akihiro picked up running again under Haiji's influence, he stopped smoking and began to make small metallic figures as a substitute."]
 
-/* Declaring the alternative text for each image file */
+/* populate the content of each character in the index page */
 for (var i=0;i<imgArr.length;i++){
     let character = document.createElement("div");
     character.setAttribute('class','characters')
@@ -80,11 +81,11 @@ for (var i=0;i<members.length;i++){
 }
 */
 
-// Message Board
+/* Message Board */
 
     const messageList = document.querySelector(".messages")
-    const btn = document.querySelector("form button");
-    const msg = document.querySelector("form textarea[name='user_message']");
+    const btn = document.querySelector(".userMsg button");
+    const msg = document.querySelector(".userMsg textarea[name='user_message']");
     function addMsg(){
         const msgValue = msg.value;
         if(!msgValue){

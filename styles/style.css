@@ -78,7 +78,7 @@ aside p{
     margin-bottom: 5px;
     background-color: skyblue;
     border-radius: 10px;
-    height: 3em;
+    height: 2.7em;
     text-align: center;
 }
 
@@ -91,11 +91,11 @@ aside p{
     box-shadow: 0 0 1.5rem rgba(0,0,0,.1);
 }
 
-form, .messages{
+.userMsg, .messages{
     font-size: 2em;
 }
 
-form ul{
+.userMsg ul{
     list-style-type: none;
 }
 
